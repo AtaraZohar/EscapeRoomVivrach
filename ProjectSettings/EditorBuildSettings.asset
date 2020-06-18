@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/openScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/menuScene.unity
+    guid: b9c009fcb35f24f408a89b190378e4d1
+  - enabled: 1
+    path: Assets/Scenes/Mabol.unity
+    guid: 918d08fa57999934896699fae8edd2d9
+  - enabled: 1
+    path: Assets/Scenes/David.unity
+    guid: f0e5c9e9be7c810439de4e73177135a7
+  - enabled: 1
+    path: Assets/Scenes/Ruth.unity
+    guid: 4a49e1dff30ee7b40b4839c5f1e0b7cd
+  - enabled: 1
+    path: Assets/Scenes/Jacob.unity
+    guid: 85585e1fe44779a4793d497bafabe1b7
+  - enabled: 1
+    path: Assets/Scenes/Bereshit.unity
+    guid: 47459977badc1f14798fe5a9d27e8d44
+  - enabled: 1
+    path: Assets/Scenes/Egypt.unity
+    guid: e140fe0bc1b858643af4269c2a0bad84
+  - enabled: 1
+    path: Assets/Scenes/woodLock.unity
+    guid: 9410b469771dd004fb55219b46f654e6
+  - enabled: 1
+    path: Assets/Scenes/NoahStory.unity
+    guid: 08c259cee63486f4cafc52282fcadb5c
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: f9d1aa63608a18d44b28f339d77e35ae
+  m_configObjects: {}
