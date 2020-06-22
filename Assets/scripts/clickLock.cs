@@ -35,7 +35,10 @@ public class clickLock : MonoBehaviour
         inputPic.SetActive(false);
     }
 
-
+        public void unshowInput()
+    {
+        inputText.SetActive(false);
+    }
 
 
 }

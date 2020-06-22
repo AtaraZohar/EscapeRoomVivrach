@@ -41,4 +41,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Instructions.unity
     guid: f9d1aa63608a18d44b28f339d77e35ae
+  - enabled: 1
+    path: Assets/Scenes/Mabol3.unity
+    guid: c629081dc6d289f4697c203724223f8a
+  - enabled: 1
+    path: Assets/Scenes/Mabol5.unity
+    guid: 590890f555af52b459311c0cb6a0b5f5
+  - enabled: 1
+    path: Assets/Scenes/Mabol4.unity
+    guid: 28ee906a9b392d747880c9bb8a13eee3
   m_configObjects: {}
