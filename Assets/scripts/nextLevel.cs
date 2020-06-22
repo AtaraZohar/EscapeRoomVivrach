@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class nextLevel : MonoBehaviour
 {
-    public GameObject inputPic;
+    public GameObject inputPic1;
+    public GameObject inputPic2;
     public bool question1;
     public bool question2;
     public bool question3;
+    public bool solvesRoom=false;
 
     // Start is called before the first frame update
     void Start()
     {
        question1=false;
-        question2=false;
-         question3=false; 
+       question2=false;
+       question3=false; 
     }
 
     // Update is called once per frame
@@ -25,7 +27,9 @@ public class nextLevel : MonoBehaviour
 
     public void checkRight(){
         if (question1 == true && question2 ==true && question3 ==true){
-            inputPic.SetActive(true);
+            roomMeneger.isSolved=true;
+            inputPic1.SetActive(true);
+            inputPic2.SetActive(true);
         }
     }
 }

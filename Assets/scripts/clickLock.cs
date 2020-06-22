@@ -10,12 +10,13 @@ public class clickLock : MonoBehaviour
     public Image img;
     public GameObject inputText;
     public GameObject inputPic;
+    public int nextScene;
 
 
 
     public void moveScene()
     {
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(nextScene);
     }
 
     public void showInput()
