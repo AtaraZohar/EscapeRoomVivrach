@@ -459,7 +459,7 @@ MonoBehaviour:
   img: {fileID: 0}
   inputText: {fileID: 0}
   inputPic: {fileID: 0}
-  nextScene: 2
+  nextScene: 4
 --- !u!114 &1137331722
 MonoBehaviour:
   m_ObjectHideFlags: 0
