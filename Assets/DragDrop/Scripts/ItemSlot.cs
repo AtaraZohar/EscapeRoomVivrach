@@ -17,10 +17,26 @@ using UnityEngine.EventSystems;
 
 public class ItemSlot : MonoBehaviour, IDropHandler {
 
+public endFinalLevel myLevel;
+
     public void OnDrop(PointerEventData eventData) {
         Debug.Log("OnDrop");
         if (eventData.pointerDrag != null) {
-            eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+            eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition; 
+            Debug.Log( eventData.pointerDrag.gameObject.name); 
+            Debug.Log( gameObject.name); 
+        if (eventData.pointerDrag.gameObject.name.Equals("orev")&& gameObject.name.Equals("ItemSlotOrev")){
+            Debug.Log( eventData.pointerDrag.gameObject.name);
+            myLevel.pic1=true;
+        }
+        if (eventData.pointerDrag.gameObject.name.Equals("yona")&& gameObject.name.Equals("ItemSlotYona")){
+            Debug.Log( eventData.pointerDrag.gameObject.name);
+            myLevel.pic2=true;
+        }
+         if (eventData.pointerDrag.gameObject.name.Equals("aleZait")&& gameObject.name.Equals("ItemSlotAle")){
+             Debug.Log( eventData.pointerDrag.gameObject.name);
+            myLevel.pic3=true;
+        }
         }
     }
 

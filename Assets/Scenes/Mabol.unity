@@ -2273,12 +2273,27 @@ PrefabInstance:
     - target: {fileID: 4695934864287670742, guid: 30b4cdfbfe779d94c8b08f8c357b4371,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -277
+      value: -323.9
       objectReference: {fileID: 0}
     - target: {fileID: 4695934864287670742, guid: 30b4cdfbfe779d94c8b08f8c357b4371,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -143
+      value: -126.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695934864287670742, guid: 30b4cdfbfe779d94c8b08f8c357b4371,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 730.1144
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695934864287670742, guid: 30b4cdfbfe779d94c8b08f8c357b4371,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 88.67767
+      objectReference: {fileID: 0}
+    - target: {fileID: 4695934864287670747, guid: 30b4cdfbfe779d94c8b08f8c357b4371,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4695934864683506112, guid: 30b4cdfbfe779d94c8b08f8c357b4371,
         type: 3}
@@ -2784,7 +2799,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1735257547
 RectTransform:
@@ -2864,6 +2879,11 @@ PrefabInstance:
       propertyPath: next
       value: 
       objectReference: {fileID: 1735257548}
+    - target: {fileID: 1535791424825892776, guid: f4535ec6bbd39324d92245ff086f3935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1535791424825892779, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
       propertyPath: m_Sprite
@@ -2873,17 +2893,17 @@ PrefabInstance:
     - target: {fileID: 1535791424825892781, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 207.77
+      value: 172
       objectReference: {fileID: 0}
     - target: {fileID: 1535791424825892781, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 93.623
+      value: 31.736
       objectReference: {fileID: 0}
     - target: {fileID: 3850627812267375594, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 203
+      value: 172
       objectReference: {fileID: 0}
     - target: {fileID: 3850627812267375594, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
@@ -2893,7 +2913,7 @@ PrefabInstance:
     - target: {fileID: 3850627812267375594, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 92
+      value: 33.359
       objectReference: {fileID: 0}
     - target: {fileID: 3850627812267375594, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
@@ -2920,12 +2940,12 @@ PrefabInstance:
     - target: {fileID: 3850627813017732303, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 238
+      value: 147
       objectReference: {fileID: 0}
     - target: {fileID: 3850627813017732303, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 92
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 3850627813017732303, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
@@ -2941,6 +2961,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CanvasNumber8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850627813523818210, guid: f4535ec6bbd39324d92245ff086f3935,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3850627813523818212, guid: f4535ec6bbd39324d92245ff086f3935,
         type: 3}
