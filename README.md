@@ -16,13 +16,13 @@
 
 מסך חדר הבריחה של סיפור תיבת נח והמבול:
 
-![](gitHubPicture/1.jpg)
+![](gitHubPicture/back.jpg)
 
 החדר יוביל אותנו לחידות שונות המסבירות את סיפור תיבת נוח והמבול.
 😊בסיום פתרון כל החידות של החדר יופיע מסך ובו נדע כי סיימנו את החדר בהצלחה 
   
 
-![](gitHubPicture/8.png)
+![](gitHubPicture/final.png)
 
 קישור למשחק:
 
